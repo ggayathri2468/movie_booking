@@ -1020,7 +1020,7 @@ function weekslot() {
   data_and_filter.appendChild(date_container);
 
   next7Days.forEach((item, index) => {
-    // console.log(getDate(item))
+
     let date_box = create("div");
     date_container.appendChild(date_box);
     date_box.className = "date_box";
@@ -1270,7 +1270,7 @@ function seats(thearter_name, time, arrayof_timing) {
       if(item.count!=20){
         let sub_count=20-item.count
         let div_subcount=Math.floor(sub_count/2)
-        console.log(sub_count,sub_count/2,div_subcount,"div_subcount")
+
               for (let i = 1; i <= div_subcount; i++) {
          let td = create("td");
         td.className = "emptytd";
