@@ -26,7 +26,7 @@ import {
   filling_range,
   table_movie_list,
   seats,
-} from "../ticketNew.js/exportfuntions.js";
+} from "./exportfuntions.js";
 // create a element
 
 let over_all_div = document.getElementById("navbar");
