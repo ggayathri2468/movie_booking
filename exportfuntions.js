@@ -1288,15 +1288,14 @@ function seats(thearter_name, time, arrayof_timing) {
   let footavilable=create('div')
   footavilable.className='footavailable'
   seats_panel.appendChild(footavilable)
-  // let available_check_div=create('div')
-  // available_check_div.className='available_check_div'
-  // footavilable.appendChild(available_check_div)
-  // let checkbox=create('input')
-  // checkbox.setAttribute('type','checkbox')
-  // checkbox.
-  // available_check_div.appendChild(checkbox)
-
-
+  let paybuttondiv=create("div")
+  paybuttondiv.className="paybutton_div container"
+  footavilable.appendChild(paybuttondiv);
+  let paybutton=create("button")
+  paybutton.innerText="Pay"
+  paybutton.className="paybutton"
+  paybuttondiv.appendChild(paybutton)
+  
 }
 export {
   movie_list,

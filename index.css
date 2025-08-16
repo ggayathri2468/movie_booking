@@ -926,6 +926,20 @@ table{
   position: fixed;
   width: 100%;
 }
+.paybutton{
+
+    border-radius: 5px;
+   background-color:  rgb(246, 85, 114);
+   color: white;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 30px;
+   
+}
+.paybutton_div{
+    text-align: center;
+   
+}
 
 @media (min-width: 768px) and (max-width: 1024px) {
   

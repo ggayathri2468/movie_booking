@@ -389,8 +389,15 @@ $(`#${movie_list[0].id}_div`).addEventListener("click", (event) => {
 
                     // Optionally find its parent <tr class="trid"> if needed
                     const tr = td.closest(".trid");
+                   let select_unselectseats= e.target.closest(".tdid.curser.curser_active")
                     // Activate this cell
-                    td.classList.add("curser_active");
+                    console.log("select_unselectseats",select_unselectseats)
+                    if(select_unselectseats){
+                      td.classList.remove("curser_active");
+                    }else{
+
+                      td.classList.add("curser_active");
+                    }
                   });
               }
             });
